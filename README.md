@@ -8,5 +8,5 @@ Genetic algorithms are search heuristic algorithms that is influenced by Darwin'
 * Selection: Its always the survival of the fittest. The fittest are most likely to pass down their traits to the next generation. 
 
 ##Output 
-##Evolving a String through genetic algorithm
+
 ![alt text](https://raw.githubusercontent.com/imhamzaazam/Genetic-Algorithm/master/output.PNG)
