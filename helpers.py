@@ -1,0 +1,22 @@
+# -*- coding: utf-8 -*-
+"""
+Created on Tue Mar 19 16:12:37 2019
+
+@author: corru
+"""
+
+from phrase import target
+from termcolor import colored
+
+def colorize(s):
+    for i in range(len(s)):
+        if s[i] == target[i]:
+            print(colored(s[i], "green"), end="")
+        else:
+            print(colored(s[i], "red"), end="")
+
+def summarize(gen, phr, fit):
+    print(f"Generation #{gen:3}: ", end="")
+    colorize(phr)
+    print(f"  score: {fit:2}/{len(target)}")
+
